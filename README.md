@@ -1,2 +1,2 @@
-# E-Commcerce-Website
+# E-Commerce-Website
 React + Firebase Fullstack Website
