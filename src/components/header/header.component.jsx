@@ -21,6 +21,7 @@ const Header = ({ currentUser, hidden, signOutStart }) => (
     <OptionsContainer>
       <OptionLink to='/shop'>SHOP</OptionLink>
       <OptionLink to='/shop'>CONTACT</OptionLink>
+      <a href="https://e-commerce-community.firebaseapp.com/">COMMUNITY</a>
       {currentUser ? (
         <OptionLink as='div' onClick={signOutStart}>
           SIGN OUT
