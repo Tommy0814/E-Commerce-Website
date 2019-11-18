@@ -100,4 +100,8 @@ class SignUp extends React.Component {
   }
 }
 
+<<<<<<< Updated upstream:src/components/sign-up/sign-up.component.jsx
 export default SignUp;
+=======
+export default SignUp;
+>>>>>>> Stashed changes:client/src/components/sign-up/sign-up.component.jsx
