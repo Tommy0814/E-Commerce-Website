@@ -19,7 +19,8 @@ Fullstack E-Commerce Website
     * [Kyuhak Yuk](https://www.linkedin.com/in/kyuhak-yuk-20496a15b/)
     * [Devanshi Sukhadia](https://www.linkedin.com/in/devanshisukhadia/)
     * [Alejandro Lopez](https://www.linkedin.com/in/alejandro-lopez-36a6b214a/)
-* Project Introduction: 
+    
+## * Project Introduction: 
     * [E-Commerce-Website](http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/) is a professional, full-featured and
 high performance e-commerce full-stack website!  You can install it in your
 computer within 5 minutes and can adapt, extend, overwrite
@@ -67,8 +68,68 @@ and customize anything to your needs.
         * Deploying our chat app to the web using Firebase ToolsKeyboard shortcuts to rapidly send messages
         * And more!
     
+## Sample Demo Screenshots
     
-    ** Addditional Information **
+    
+    
+    
+    
+    
+    
+    
+## Pre-requisites Set Up
+    List of Resources to Configure in the Cloud Account:
+    * Firebase Configuration: 
+    `
+      const firebaseConfig = {
+          apiKey: "AIzaSyDe8zI8WBNouStCsl-x68HGA9h0EzG2VMQ",
+          authDomain: "e-commerce-website-99159.firebaseapp.com",
+          databaseURL: "https://e-commerce-website-99159.firebaseio.com",
+          projectId: "e-commerce-website-99159",
+          storageBucket: "e-commerce-website-99159.appspot.com",
+          messagingSenderId: "714761802326",
+          appId: "1:714761802326:web:7e8329083fb37fed55e1f7",
+          measurementId: "G-EHLKC1F2KQ"
+    };
+    `
+    * AWS:
+    ` No need to configure AWS, website is already deployed on the website`
+    
+    List of Required Software To Download Locally:
+    * NPM
+    * React v16.12.0
+    * Visual Studio Code (Suggested)
+    
+    Local Configuration:
+    * Simply update NPM and React to the newest version
+    * There is no need to make extra configuration on Firebase and AWS in our project as both are already set up and read to use
+    
+    
+    
+## How to set up and run project locally?
+    1. On command line, cd to the folder you wish to store the application, clone the project from this GitHub repository
+    `git clone https://github.com/Tommy0814/E-Commerce-Website.git`
+    2. Open the project in a code editor, such as Microsoft Visual Studio Code, then stay at the root folder of the project hierachy, run the server by using the following code:
+    `npm install`
+    then,
+    `npm start`
+    Now the backend server is ready
+    3. On the command line, type
+    `cd client`,
+    at client folder, run the front end by typing
+    `npm install`
+    then,
+    `npm start`
+    Now the front end React app is running.
+    4. Now the website should automatically pop up on the browser.
+    
+    
+    
+    
+    
+    
+    
+## Addditional Information 
     * Technology List:
         1. React Framework v16.12.0
         2. Google Firebase for Realtime Database and Cloud Firestore
