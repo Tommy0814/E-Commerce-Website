@@ -13,7 +13,7 @@ const StripeCheckoutButton = ({ price }) => {
   return (
     <StripeCheckout
       label='Pay Now'
-      name='CRWN Clothing Ltd.'
+      name='Umrika Clothing Ltd.'
       billingAddress
       shippingAddress
       image='https://svgshare.com/i/CUz.svg'
@@ -27,3 +27,4 @@ const StripeCheckoutButton = ({ price }) => {
 };
 
 export default StripeCheckoutButton;
+
