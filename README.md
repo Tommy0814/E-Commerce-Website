@@ -2,7 +2,7 @@
     <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="E-Commer-Website" align="right" height="60" />
 </a>
 
-Fullstack E Commerce Website
+Fullstack E-Commerce Website
 ======================
 [![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
@@ -25,18 +25,71 @@ high performance e-commerce full-stack website!  You can install it in your
 computer within 5 minutes and can adapt, extend, overwrite
 and customize anything to your needs.
     * What the project does?
+    
     ` Users can shop for clothes, shoes, and hats on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
     * Feature List:
         1. React Framework v16.12.0
         2. Google Firebase for Realtime Database and Cloud Firestore
+            * Firebase Refresher
         3. User Authentication via both Email and Google Account
             * Email/Password Registration
             * Google Signin Authentication
         4. React Router and Routing
+            * Routing for Each Page
+            * Nested Routing in Shop Page
+            * Collection Routing and Selector
+            * Currying
         5. User Information Storage
-        6. Redux: Redux Actions and Reducers
+        6. Redux 
+            * Redux Actions and Reducers
+            * Directory State Into Redux
+            * Collection State Into Redux
+            * Collection Overview Component
+            * Asyncronous Redux
+            * Observables
+            * Promise Pattern
+            * Redux Thunk
+            * Redux Saga
+            * Root Saga
         7. User Redirect and User Action Type
-        8. Shopping Cart
+        8. Shopping Cart:
+            * Card Dropdown Component
+            * Card Item Reducer and Adder
+            * Add Multiple Items To Cart 
+            * Cart Item Memorization
+            * Cart CSS Styles
+            * Items Being Shown Real Time
+        9. Selectors in Redux
+        10. Reselect Library
+        11. Checkout Page
+            * Checkout Items
+            * Remove Items At Checkout
+        12. Local Storage and Session Storage
+            * Website Cache
+            * Redux Persist
+        13. State Normalization
+        14. Stripe Payment
+        15. WithSpinner HOC
+        16. Container Pattern
+        17. React Hooks
+            * Hook Rules
+            * Custom Hooks
+        18. Backend
+            * Stripe
+            * Build a Basic Server
+            * Backend Payment Route
+            * Connect Client To Server
+        19. Context API
+            * Context Provider
+            * Cart Context
+        20. Mobile Responsiveness
+        21. React Performance
+            * Code Splitting
+            * React Lazy
+            * Suspense
+            * Memo
+            * Gzipping and Compression
+
     
 
 [E-Commerce-Website](http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/) is a professional, full-featured and
