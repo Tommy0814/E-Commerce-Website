@@ -5,8 +5,6 @@
 Fullstack E-Commerce Website
 ======================
 
-:star: Star us on GitHub — it helps!
-
 * University Name: [San Jose State University](http://www.sjsu.edu/)
 * Course Name: [CMPE 172](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html)
 * Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
