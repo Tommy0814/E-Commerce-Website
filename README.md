@@ -1,204 +1,176 @@
-<<<<<<< Updated upstream
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://aimeos.org/">
+    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+</a>
 
-## Available Scripts
+Aimeos TYPO3 extension
+======================
+[![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
+[![License](https://poser.pugx.org/aimeos/aimeos-typo3/license.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 
-In the project directory, you can run:
+:star: Star us on GitHub — it helps!
 
-### `npm start`
+[Aimeos](https://aimeos.org/TYPO3) is THE professional, full-featured and
+high performance e-commerce extension for TYPO3!  You can install it in your
+existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
+and customize anything to your needs.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Table of content
 
-### `npm test`
+- [Installation](#installation)
+    - [TER](#typo3-extension-repository)
+    - [Composer](#composer)
+- [TYPO3 setup](#typo3-setup)
+    - [Extension](#extension)
+    - [Database](#database)
+- [Page setup](#page-setup)
+    - [Upload the page tree file](#upload-the-page-tree-file)
+    - [Go to the import view](#go-to-the-import-view)
+    - [Import the uploaded page tree file](#import-the-uploaded-page-tree-file)
+- [License](#license)
+- [Links](#links)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+This document is for the latest Aimeos TYPO3 **18.10 release and later**.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Stable release: 19.7 (TYPO3 7/8/9 LTS)
+- LTS release: 18.10 (TYPO3 7/8/9 LTS)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### TYPO3 extension repository
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you want to install Aimeos into your existing TYPO3 installation, the [Aimeos extension from the TER](https://typo3.org/extensions/repository/view/aimeos) is recommended. You can download and install it directly from the Extension Manager of your TYPO3 instance.
 
-### `npm run eject`
+For new TYPO3 installations, there's a 1-click [Aimeos distribution](https://typo3.org/extensions/repository/view/aimeos_dist) available too. Choose the Aimeos distribution from the list of available distributions in the Extension Manager and you will get a completely set up shop system including demo data for a quick start.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Composer
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The latest version can be installed via composer too. This is especially useful if you want to create new TYPO3 installations automatically or play with the latest code. You need to install the composer package first if it isn't already available:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+`php -r "readfile('https://getcomposer.org/installer');" | php -- --filename=composer`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+In order to tell install TYPO3, you have to execute
 
-## Learn More
+`composer create-project typo3/cms-base-distribution:~9.5 myshop`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-=======
-# Lesson-31
-We have separated out our front-end client from our back-end express server that handles our stripe charges. In this section we learn how to write our express backend server as well as syncing our client to request our backend to complete a stripe charge!
-
-# How to fork and clone
-
-One quick note about cloning this project. If you wish to make commits and push the code up after cloning this repo, you should fork the project first. In order to own your own copy of this repository, you have to fork it so you get your own copy on your own profile!
-
-You can see the fork button in the top right corner of every GitHub project; click it and a copy of the project will be added to your GitHub profile under the same name as the original project.
-
-![alt text](https://i.ibb.co/1YN7SJ6/Screen-Shot-2019-07-01-at-2-02-40-AM.png "image to fork button")
-
-After forking the project, simply clone it the way you would from the new forked project in your own GitHub repository and you can commit and push to it freely!
-
-
-# After you fork and clone:
-
-## Install dependencies
-
-In your terminal after you clone your project down, remember to run either `yarn` or `npm install` to build all the dependencies in the project.
-
-## Set your firebase config
-
-Remember to replace the `config` variable in your `firebase.utils.js` with your own config object from the firebase dashboard! Navigate to the project settings and scroll down to the config code. Copy the object in the code and replace the variable in your cloned code.
-
-![alt text](https://i.ibb.co/6ywMkBf/Screen-Shot-2019-07-01-at-11-35-02-AM.png "image to firebase config")
-
-
-## Set your stripe publishable key 
-
-Set the `publishableKey` variable in the `stripe-button.component.jsx` with your own publishable key from the stripe dashboard.
-
-![alt text](https://i.ibb.co/djQTmVF/Screen-Shot-2019-07-01-at-2-18-50-AM.png "image to publishable key")
-
-## Things to set before you deploy
-
-Remember to add a file called `.env` to the root folder! In that `.env` file remember to add a `STRIPE_SECRET_KEY` value equal to your own secret key from your stripe dashboard. You can find it in the same place where you found your publishable key in the developers tab under api keys. You will have to enter the password in to reveal it! 
-
-![alt text](https://i.ibb.co/wpLx8Lh/Screen-Shot-2019-07-01-at-2-26-26-AM.png "image to secret key")
-
-You will also need to connect your existing Heroku app to this new forked and cloned repo, or you have to create a new Heroku app and push to it. A quick refresher on how to do either of these:
-
-## Set to an existing Heroku app
-
-To set to an existing Heroku app you already have deployed, you need to know the name of the app you want to deploy to. To see a list of all the apps you currently have on Heroku:
+This will install TYPO3 into the ''./myshop/'' directory. Afterwards, you have to edit the composer.json file and add the ''post-install-cmd'' and ''post-update-cmd'' scripts:
 
 ```
-heroku apps
+    "scripts": {
+        "post-install-cmd": [
+            "Aimeos\\Aimeos\\Custom\\Composer::install"
+        ],
+        "post-update-cmd": [
+            "Aimeos\\Aimeos\\Custom\\Composer::install"
+        ]
+    }
 ```
 
-Copy the name of the app you want to connect the project to, then run:
+Then, install the Aimeos extension for TYPO3 with:
+
+`composer req aimeos/aimeos-typo3:~19.7`
+
+This will install TYPO3 9.5 and the latest Aimeos TYPO3 extension. The Aimeos composer script will be executed automatically, which copies some required files and adds a link to the Aimeos extensions placed in the ./ext/ directory.
+
+## TYPO3 setup
+
+### Database setup
+
+Starting with Aimeos 18.10 and TYPO3 9.5, it's possible to define the charset and collation for newly created MySQL tables. In case you want to use a NoSQL data store like ElasticSearch for Aimeos products, you need to use a binary collation `utf8mb4_bin` in your `typo3conf/LocalConfiguration.php` file **before** the tables are created:
 
 ```
-heroku git:remote -a <PASTE_YOUR_APP_NAME_HERE>
+'DB' => [
+    'Connections' => [
+        'Default' => [
+            'tableoptions' => [
+                'charset' => 'utf8mb4',
+                'collate' => 'utf8mb4_bin',
+            ],
+            // ...
+        ],
+    ],
+],
 ```
 
-And now you'll have your repo connected to the heroku app under the git remote name `heroku`.
-
-If the Heroku app you connected was deploying just a create-react-app project from earlier in the lesson, you will need to remove the `mars/create-react-app-buildpack` buildpack first. You can check if you have this buildpack by running:
+**Caution:** If you use MySQL < 5.7, you have to use `utf8` and `utf8_bin` instead because those MySQL versions can't handle the long indexes created by `utf8mb4` (up to four bytes per character) and you will get errors like `1071 Specified key was too long; max key length is 767 bytes`:
 
 ```
-heroku buildpacks
+'DB' => [
+    'Connections' => [
+        'Default' => [
+            'tableoptions' => [
+                'charset' => 'utf8',
+                'collate' => 'utf8_bin',
+            ],
+            // ...
+        ],
+    ],
+],
 ```
 
-Which will list any buildpacks you currently have, if you see `mars/create-react-app-buildpack` in the list, you can remove it by running:
+### Extension
 
-```
-heroku buildpacks:remove mars/create-react-app-buildpack
-```
+* Log into the TYPO3 back end
+* Click on ''Admin Tools::Extension Manager'' in the left navigation
+* Click the icon with the little plus sign left from the Aimeos list entry (looks like a lego brick)
 
-Then skip to the bottom of this article to see what to do next!
+**Caution:** Install the **RealURL extension before the Aimeos extension** to get nice looking URLs. Otherwise, RealURL doesn't rewrite the parameters even if you install RealURL afterwards!
 
+![Install Aimeos TYPO3 extension](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-install.png)
 
-## To create a new Heroku app
+### Database
 
-Create a new Heroku project by typing in your terminal:
+Afterwards, you have to execute the update script of the extension to create the required database structure:
 
-```
-heroku create
-```
+![Execute update script](https://aimeos.org/docs/images/Aimeos-typo3-extmngr-update-7.x.png)
 
-This will create a new Heroku project for you. Then run:
+## Page setup
 
-```
-git remote -v
-```
+The page setup for an Aimeos web shop is easy if you import the [standard page tree for TYPO3 8.7/9.5](https://aimeos.org/docs/TYPO3/Install_Aimeos/Setup_pages#Download) into your TYPO3 installation.
 
-You should see heroku `https://git.heroku.com/<RANDOMLY_GENERATED_NAME_OF_YOUR_APP>` in the list. This means you have successfully connected your project to the newly created Heroku app under the git remote of `heroku`.
+### Go to the import view
 
+* In Web::Page, root page (the one with the globe)
+* Right click on the globe
+* Move the cursor to "Branch actions"
+* In the sub-menu, click on "Import from .t3d"
 
-## Deploying to Heroku
+![Go to the import view](https://aimeos.org/docs/images/Aimeos-typo3-pages-menu.png)
 
-Before we deploy, you also need to set a config variable of `STRIPE_SECRET_KEY` to the same secret key value from your stripe dashboard, the same one in your `.env` file. The `.env` file is only for local development, in order for our heroku production app to have access to this secret key, we add it to our Heroku projects config variables by typing:
+### Upload the page tree file
 
-```
-heroku config:set STRIPE_SECRET_KEY=<YOUR_STRIPE_SECRET_KEY>
-```
+* In the page import dialog
+* Select the "Upload" tab (2nd one)
+* Click on the "Select" dialog
+* Choose the file you've downloaded
+* Press the "Upload files" button
 
-After that, you can deploy to heroku by running:
+![Upload the page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-upload.png)
 
-```
-git push heroku master
-```
+### Import the uploaded page tree file
 
-You will see this warning message if you are pushing to an existing app:
+* In Import / Export view
+* Select the uploaded file from the drop-down menu
+* Click on the "Preview" button
+* The pages that will be imported are shown below
+* Click on the "Import" button that has appeared
+* Confirm to import the pages
 
-```
-! [rejected]        master -> master (fetch first)
-error: failed to push some refs to 'https://git.heroku.com/hasura-crwn-clothing.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
+![Import the uploaded page tree file](https://aimeos.org/docs/images/Aimeos-typo3-pages-import.png)
 
-This is because we are pushing to an existing app that was deploying an entirely different repository from what we have now. Simply run:
+Now you have a new page "Shop" in your page tree including all required sub-pages.
 
-```
-git push heroku master --force
-```
+## License
 
-This will overwrite the existing Heroku app with our new code.
+The Aimeos TYPO3 extension is licensed under the terms of the GPL Open Source
+license and is available for free.
 
+## Links
 
-## Open our Heroku project
-
-After heroku finishes building our project, we can simply run:
-
-```
-heroku open
-```
-
-This will open up our browser and take us to our newly deployed Heroku project!
->>>>>>> Stashed changes
+* [Web site](https://aimeos.org/integrations/typo3-shop-extension/)
+* [Documentation](https://aimeos.org/docs/TYPO3)
+* [Forum](https://aimeos.org/help/typo3-extension-f16/)
+* [Issue tracker](https://github.com/aimeos/aimeos-typo3/issues)
+* [Source code](https://github.com/aimeos/aimeos-typo3)
