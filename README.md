@@ -1,5 +1,5 @@
 <a href="http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/">
-    < title="E-Commer-Website" align="right" height="60" />
+    <title="E-Commer-Website" align="right" height="60" />
 </a>
 
 Fullstack E-Commerce Website
