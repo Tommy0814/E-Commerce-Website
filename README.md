@@ -162,7 +162,7 @@ For Windows or Mac:
     
     ```
     npm install
-    ``
+    ```
 
 
     
