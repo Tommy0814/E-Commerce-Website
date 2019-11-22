@@ -141,12 +141,14 @@ For Windows or Mac:
 
     ```
     npm install
+    
     ```
     
     then,
     
     ```
     npm start
+    
     ```
 
     
@@ -156,19 +158,22 @@ For Windows or Mac:
 
     ```
     cd client
+    
     ```
     
     at client folder, run the front end by typing
     
     ```
     npm install
+    
     ```
-
-
     
     then,
     
-    ```npm start```
+    ```
+    npm start
+    
+    ```
     
     Now the front end React app is running.
     
