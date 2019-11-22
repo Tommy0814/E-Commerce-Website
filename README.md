@@ -1,5 +1,5 @@
 <a href="http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="E-Commer-Website" align="right" height="60" />
+    < title="E-Commer-Website" align="right" height="60" />
 </a>
 
 Fullstack E-Commerce Website
