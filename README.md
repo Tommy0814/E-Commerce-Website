@@ -85,7 +85,7 @@ and customize anything to your needs.
 
 ![Shopping Cart Page](client/src/assets/ShoppingCartPage.PNG?raw=true "Title")
 
-![Community Panel](client/src/assets/CommunityPanel.PNG?raw=true "Title")
+![Community Panel](client/src/assets/Community.PNG?raw=true "Title")
 
 
 
