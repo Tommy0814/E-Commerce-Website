@@ -71,7 +71,7 @@ and customize anything to your needs.
     
 ## Sample Demo Screenshots
 
-![Home Page](client/src/assets/Homepage.png?raw=true "Title")
+![Home Page](client/src/assets/Homepage.PNG?raw=true "Title")
 
 ![AI Chat Bot](client/src/assets/AIChatBot.PNG?raw=true "Title")
 
