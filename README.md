@@ -72,9 +72,9 @@ and customize anything to your needs.
     * And more!
     
 ## Sample Demo Screenshots
-[![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
-[![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
-[![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Alt text](relative/path/to/img.jpg?raw=true "Title")
 ![Alt text](relative/path/to/img.jpg?raw=true "Title")
 
     
@@ -132,7 +132,7 @@ Local Configuration:
     
     Now the backend server is ready
     
-3. On the command line, type
+3. On the command line, go to client folder by typing
 
     `cd client`
     
