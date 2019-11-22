@@ -145,25 +145,26 @@ For Windows or Mac:
     
     then,
     
-    `    `
-
+    ```
     npm start
-    `    `
+    ```
 
     
     Now the backend server is ready
     
 3. On the command line, go to client folder by typing
 
-    `
+    ```
     cd client
-    `
+    ```
     
     at client folder, run the front end by typing
     
-    `
+    `    `    `
     npm install
-    `
+    `    `    `
+
+
     
     then,
     
