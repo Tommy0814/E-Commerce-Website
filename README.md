@@ -155,8 +155,8 @@ Local Configuration:
     
     
 ## Addditional Information 
-[GitHub Link to the Community Feature](https://github.com/Tommy0814/Real-Time-Chat-Community.git): https://github.com/Tommy0814/Real-Time-Chat-Community.git
-Technology List:
+#### [GitHub Link to the Community Feature](https://github.com/Tommy0814/Real-Time-Chat-Community.git)
+#### Technology List:
 1. React Framework v16.12.0
 2. Google Firebase for Realtime Database and Cloud Firestore
     * Firebase Refresher
