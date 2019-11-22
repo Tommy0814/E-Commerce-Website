@@ -75,7 +75,7 @@ and customize anything to your needs.
 
 ![AI Chat Bot](client/src/assets/AIChatBot.PNG?raw=true "Title")
 
-![SignUp and SignIn](client/src/assets/SignUp and SignIn.PNG?raw=true "Title")
+![SignUp and SignIn](client/src/assets/SignUpSignIn.PNG?raw=true "Title")
 
 ![Category Example](client/src/assets/CategoryExample.PNG?raw=true "Title")
 
