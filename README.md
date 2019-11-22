@@ -79,7 +79,7 @@ and customize anything to your needs.
 
 ![Category Example](client/src/assets/CategoryExample.PNG?raw=true "Title")
 
-![Shopping Cart]client/src/assets/ShoppingCart.PNG?raw=true "Title")
+![Shopping Cart](client/src/assets/ShoppingCart.PNG?raw=true "Title")
 
 ![Credit Card Payment](client/src/assets/CreditCardPayment.PNG?raw=true "Title")
 
