@@ -4,9 +4,6 @@
 
 Fullstack E-Commerce Website
 ======================
-[![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
-[![License](https://poser.pugx.org/aimeos/aimeos-typo3/license.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 
 :star: Star us on GitHub — it helps!
 
@@ -158,6 +155,7 @@ Local Configuration:
     
     
 ## Addditional Information 
+[GitHub Link to the Community Feature](https://github.com/Tommy0814/Real-Time-Chat-Community.git): https://github.com/Tommy0814/Real-Time-Chat-Community.git
 Technology List:
 1. React Framework v16.12.0
 2. Google Firebase for Realtime Database and Cloud Firestore
