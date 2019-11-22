@@ -1,8 +1,8 @@
-<a href="https://aimeos.org/">
-    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
+<a href="http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/">
+    <img src="https://aimeos.org/fileadmin/template/icons/logo.png" alt="Aimeos logo" title="E-Commer-Website" align="right" height="60" />
 </a>
 
-Aimeos TYPO3 extension
+Fullstack E Commerce Website
 ======================
 [![Total Downloads](https://poser.pugx.org/aimeos/aimeos-typo3/d/total.svg)](https://packagist.org/packages/aimeos/aimeos-typo3)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/aimeos/aimeos-typo3/?branch=master)
@@ -10,9 +10,38 @@ Aimeos TYPO3 extension
 
 :star: Star us on GitHub — it helps!
 
-[Aimeos](https://aimeos.org/TYPO3) is THE professional, full-featured and
-high performance e-commerce extension for TYPO3!  You can install it in your
-existing TYPO3 web site within 5 minutes and can adapt, extend, overwrite
+* University Name: [San Jose State University](http://www.sjsu.edu/)
+* Course Name: [CMPE 172](http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE172.html)
+* Professor: [Sanjay Garje](https://www.linkedin.com/in/sanjaygarje/)
+* Students: 
+    * [Tommy Xu](https://www.linkedin.com/in/tommy-jing-xu/)
+    * [Marco Alvarez](https://www.linkedin.com/in/marcoalvarezmynd/)
+    * [Kyuhak Yuk](https://www.linkedin.com/in/kyuhak-yuk-20496a15b/)
+    * [Devanshi Sukhadia](https://www.linkedin.com/in/devanshisukhadia/)
+    * [Alejandro Lopez](https://www.linkedin.com/in/alejandro-lopez-36a6b214a/)
+* Project Introduction: 
+    * [E-Commerce-Website](http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/) is a professional, full-featured and
+high performance e-commerce full-stack website!  You can install it in your
+computer within 5 minutes and can adapt, extend, overwrite
+and customize anything to your needs.
+    * What the project does?
+    ` Users can shop for clothes, shoes, and hats on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
+    * Feature List:
+        1. React Framework v16.12.0
+        2. Google Firebase for Realtime Database and Cloud Firestore
+        3. User Authentication via both Email and Google Account
+            * Email/Password Registration
+            * Google Signin Authentication
+        4. React Router and Routing
+        5. User Information Storage
+        6. Redux: Redux Actions and Reducers
+        7. User Redirect and User Action Type
+        8. Shopping Cart
+    
+
+[E-Commerce-Website](http://cmpe172-aws.s3-website-us-west-1.amazonaws.com/) is a professional, full-featured and
+high performance e-commerce full-stack website!  You can install it in your
+computer within 5 minutes and can adapt, extend, overwrite
 and customize anything to your needs.
 
 [![Aimeos TYPO3 demo](https://aimeos.org/fileadmin/user_upload/typo3-demo.jpg)](http://typo3.demo.aimeos.org/)
