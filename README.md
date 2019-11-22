@@ -25,10 +25,11 @@ Fullstack E-Commerce Website
 high performance e-commerce full-stack website!  You can install it in your
 computer within 5 minutes and can adapt, extend, overwrite
 and customize anything to your needs.
+
 ### Technologies Used:
-    1. React for Front End
-    2. AWS for the server and deployment
-    3. Firebase for the cloud firestore and realtime database
+1. React for Front End
+2. AWS for the server, Lex AI Chatbot and website deployment
+3. Firebase for the cloud firestore and realtime database
 
 * What the application does?
     
