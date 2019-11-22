@@ -77,6 +77,8 @@ and customize anything to your needs.
 
 ![AI Chat Bot](relative/path/to/img.jpg?raw=true "Title")
 
+![SignUp and SignIn](relative/path/to/img.jpg?raw=true "Title")
+
 ![Category Example](relative/path/to/img.jpg?raw=true "Title")
 
 ![Shopping Cart](relative/path/to/img.jpg?raw=true "Title")
