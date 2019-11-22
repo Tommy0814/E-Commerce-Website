@@ -96,7 +96,7 @@ List of Resources to Configure in the Cloud Account:
     };
     `
     
-    * AWS:
+* AWS:
     
     ` No need to configure AWS, website is already deployed on the website`
     
@@ -128,7 +128,7 @@ Local Configuration:
     
 3. On the command line, type
 
-    `cd client`,
+    `cd client`
     
     at client folder, run the front end by typing
     
@@ -152,69 +152,69 @@ Local Configuration:
 Technology List:
 1. React Framework v16.12.0
 2. Google Firebase for Realtime Database and Cloud Firestore
-            * Firebase Refresher
-        3. User Authentication via both Email and Google Account
-            * Email/Password Registration
-            * Google Signin Authentication
-        4. React Router and Routing
-            * Routing for Each Page
-            * Nested Routing in Shop Page
-            * Collection Routing and Selector
-            * Currying
-        5. User Information Storage
-        6. Redux 
-            * Redux Actions and Reducers
-            * Directory State Into Redux
-            * Collection State Into Redux
-            * Collection Overview Component
-            * Asyncronous Redux
-            * Observables
-            * Promise Pattern
-            * Redux Thunk
-            * Redux Saga
-            * Root Saga
-        7. User Redirect and User Action Type
-        8. Shopping Cart:
-            * Card Dropdown Component
-            * Card Item Reducer and Adder
-            * Add Multiple Items To Cart 
-            * Cart Item Memorization
-            * Cart CSS Styles
-            * Items Being Shown Real Time
-        9. Selectors in Redux
-        10. Reselect Library
-        11. Checkout Page
-            * Checkout Items
-            * Remove Items At Checkout
-        12. Local Storage and Session Storage
-            * Website Cache
-            * Redux Persist
-        13. State Normalization
-        14. Stripe Payment
-        15. WithSpinner HOC
-        16. Container Pattern
-        17. React Hooks
-            * Hook Rules
-            * Custom Hooks
-        18. Backend
-            * Stripe
-            * Build a Basic Server
-            * Backend Payment Route
-            * Connect Client To Server
-        19. Context API
-            * Context Provider
-            * Cart Context
-        20. Mobile Responsiveness
-        21. React Performance
-            * Code Splitting
-            * React Lazy
-            * Suspense
-            * Memo
-            * Gzipping and Compression
-        22. AWS (Amazon Website Service)
-            * E3
-            * AI Chatbot
-            * Deployment
+    * Firebase Refresher
+3. User Authentication via both Email and Google Account
+    * Email/Password Registration
+    * Google Signin Authentication
+4. React Router and Routing
+    * Routing for Each Page
+    * Nested Routing in Shop Page
+     * Collection Routing and Selector
+    * Currying
+5. User Information Storage
+6. Redux 
+    * Redux Actions and Reducers
+    * Directory State Into Redux
+    * Collection State Into Redux
+    * Collection Overview Component
+    * Asyncronous Redux
+    * Observables
+    * Promise Pattern
+    * Redux Thunk
+    * Redux Saga
+    * Root Saga
+7. User Redirect and User Action Type
+8. Shopping Cart:
+    * Card Dropdown Component
+    * Card Item Reducer and Adder
+    * Add Multiple Items To Cart 
+    * Cart Item Memorization
+    * Cart CSS Styles
+    * Items Being Shown Real Time
+9. Selectors in Redux
+10. Reselect Library
+11. Checkout Page
+    * Checkout Items
+    * Remove Items At Checkout
+12. Local Storage and Session Storage
+    * Website Cache
+    * Redux Persist
+13. State Normalization
+14. Stripe Payment
+15. WithSpinner HOC
+16. Container Pattern
+17. React Hooks
+    * Hook Rules
+    * Custom Hooks
+18. Backend
+    * Stripe
+    * Build a Basic Server
+    * Backend Payment Route
+    * Connect Client To Server
+19. Context API
+    * Context Provider
+    * Cart Context
+20. Mobile Responsiveness
+21. React Performance
+    * Code Splitting
+    * React Lazy
+    * Suspense
+    * Memo
+    * Gzipping and Compression
+22. AWS (Amazon Website Service)
+    * E3
+    * AI Chatbot
+    * Deployment
 
     
 
