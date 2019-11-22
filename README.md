@@ -24,10 +24,52 @@ Fullstack E-Commerce Website
 high performance e-commerce full-stack website!  You can install it in your
 computer within 5 minutes and can adapt, extend, overwrite
 and customize anything to your needs.
-    * What the project does?
+    * What the application does?
     
-    ` Users can shop for clothes, shoes, and hats on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
+    `Users can shop for clothes, shoes, and hats on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
+    
     * Feature List:
+        * Email/Password Registration and logout
+        * Google SignIn Authentication
+        * User Information Page
+        * Shopping features allow users to shop by categories, such as clothes types and gender
+        * Each category has a individual page and sorting feature to show users the corresponding items accordingly
+        * Shopping page organizes items into categories to offer users a better view over all items
+        * Clear frontend structure on the main page to make it easy for users to navigate through all categories
+        * Multiple tabs on the top bar for users to switch to each features easily
+        * Hover function over all items offers easy view for users to add items to the shopping cart
+        * Shopping cart features shows the added items instantly when users add items, it also has an individual page which offers change amount feature to allow users to add and reduce the amount of each item or even delete items at ease
+        * Shopping cart icon on the top right corner shows how many items are in the cart real time
+        * Payment features made with Stripe allows users to make credit card payments
+        * Artificial Intelligence Chatbot is easily accessible throughout sites, customers can ask questions and get corresponding suggestions from the Chatbot
+        * Community features provided for users to easily access customer service via real-time chat
+        * Community features allow customers to create or join channels based on the topics of each channel to enhance interactions among customers and make the services more sticky and addictive
+        * Direct messages in community feature makes it easy for customers to chat privately with other customers
+        * Channel creation feature in community site makes it possible for users to learn fashion trends and much more from other customers
+        * Users can change their avatar in community feature by simply uploading images for more customization
+        * Users can send emojis, text messages and images or other medias in chat in th ecommunity site
+        * Sending and receiving messages instantly with the real-time Firebase Database
+        * Uploading and displaying image messages using Firebase Storage
+        * Notifications to display new messages in other channels
+        * Sending Direct Messages to other users in our chat
+        * Tracking / showing when users are online / offline
+        * Searching messages within created channels
+        * Custom animations to see when other users are typing in the same channel
+        * Creating, cropping and uploading user avatars
+        * The ability to favorite / unfavorite public channels
+        * Add emojis to our messages with an Emoji Picker component
+        * State management with Redux, with simple, straightforward patterns
+        * Creating stunning user interfaces with Semantic UI React
+        * Essential features of React Router 4 (Switch component, withRouter HOC, history object)
+        * Tons of work with ES6 / 7
+        * Helpful browser tools such as React / Redux Dev Tools
+        * Securing our application with Firebase Rules
+        * Deploying our chat app to the web using Firebase ToolsKeyboard shortcuts to rapidly send messages
+        * And more!
+    
+    
+    ** Addditional Information **
+    * Technology List:
         1. React Framework v16.12.0
         2. Google Firebase for Realtime Database and Cloud Firestore
             * Firebase Refresher
@@ -89,6 +131,10 @@ and customize anything to your needs.
             * Suspense
             * Memo
             * Gzipping and Compression
+        22. AWS (Amazon Website Service)
+            * E3
+            * AI Chatbot
+            * Deployment
 
     
 
