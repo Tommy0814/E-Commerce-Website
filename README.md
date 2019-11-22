@@ -73,13 +73,21 @@ and customize anything to your needs.
     
 ## Sample Demo Screenshots
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Home Page](relative/path/to/img.jpg?raw=true "Title")
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![AI Chat Bot](relative/path/to/img.jpg?raw=true "Title")
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Category Example](relative/path/to/img.jpg?raw=true "Title")
 
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+![Shopping Cart](relative/path/to/img.jpg?raw=true "Title")
+
+![Credit Car Payment](relative/path/to/img.jpg?raw=true "Title")
+
+![Shopping Cart](relative/path/to/img.jpg?raw=true "Title")
+
+![Community Panel](relative/path/to/img.jpg?raw=true "Title")
+
+
 
     
     
@@ -108,7 +116,7 @@ List of Resources to Configure in the Cloud Account:
     
 * AWS:
     
-    ` No need to configure AWS, website is already deployed on the website`
+    ` No need to configure AWS, website is already deployed on AWS`
     
 List of Required Software To Download Locally:
 * NPM
