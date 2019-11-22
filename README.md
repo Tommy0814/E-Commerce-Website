@@ -245,7 +245,6 @@ For Windows or Mac:
     * Memo
     * Gzipping and Compression
 22. AWS (Amazon Website Service)
-    * Lambda
     * Lex AI Chatbot
     * Deployment
 23. Kommunicate
