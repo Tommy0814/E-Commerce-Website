@@ -130,6 +130,7 @@ Local Configuration:
     
     
 ## How to set up and run project locally?
+For Windows or Mac:
 1. On command line, cd to the folder you wish to store the application, clone the project from this GitHub repository
 
     `git clone https://github.com/Tommy0814/E-Commerce-Website.git`
