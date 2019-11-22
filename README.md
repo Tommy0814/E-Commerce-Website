@@ -28,7 +28,7 @@ and customize anything to your needs.
 
 * What the application does?
     
-    `Users can shop for clothes, shoes, and hats on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
+    `Users can shop for clothes related to all 50 states of USA, hats, and shoes on this website, users can add items using the shopping carts, and make payments using their credit card, users can also access a smart chat bot for styles advice, a community feature is provided for users to chat with each other in different channels to enhance user experience`
     
 * Feature List:
     * Email/Password Registration and logout
