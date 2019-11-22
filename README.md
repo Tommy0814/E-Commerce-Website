@@ -139,15 +139,17 @@ For Windows or Mac:
     
 2. Open the project in a code editor, such as Microsoft Visual Studio Code, then stay at the root folder of the project hierachy, run the server by using the following code:
 
-    `
+    ```
     npm install
-    `
+    ```
     
     then,
     
-    `
+    `    `
+
     npm start
-    `
+    `    `
+
     
     Now the backend server is ready
     
