@@ -71,21 +71,21 @@ and customize anything to your needs.
     
 ## Sample Demo Screenshots
 
-![Home Page](relative/path/to/img.jpg?raw=true "Title")
+![Home Page](client/src/assets/Homepage.png?raw=true "Title")
 
-![AI Chat Bot](relative/path/to/img.jpg?raw=true "Title")
+![AI Chat Bot](client/src/assets/AIChatBot.PNG?raw=true "Title")
 
-![SignUp and SignIn](relative/path/to/img.jpg?raw=true "Title")
+![SignUp and SignIn](client/src/assets/SignUpSignIn.PNG?raw=true "Title")
 
-![Category Example](relative/path/to/img.jpg?raw=true "Title")
+![Category Example](client/src/assets/CategoryExample.PNG?raw=true "Title")
 
-![Shopping Cart](relative/path/to/img.jpg?raw=true "Title")
+![Shopping Cart]client/src/assets/ShoppingCart.PNG?raw=true "Title")
 
-![Credit Car Payment](relative/path/to/img.jpg?raw=true "Title")
+![Credit Card Payment](client/src/assets/CreditCardPayment.PNG?raw=true "Title")
 
-![Shopping Cart](relative/path/to/img.jpg?raw=true "Title")
+![Shopping Cart Page](client/src/assets/ShoppingCart.PNG?raw=true "Title")
 
-![Community Panel](relative/path/to/img.jpg?raw=true "Title")
+![Community Panel](client/src/assets/CommunityPanel.PNG?raw=true "Title")
 
 
 
