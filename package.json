@@ -3,12 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "firebase": "^7.3.0",
-    "node-sass": "^4.13.0",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.2.0"
+    "body-parser": "^1.18.3",
+    "cors": "2.8.5",
+    "dotenv": "7.0.0",
+    "express": "^4.16.4",
+    "stripe": "6.28.0"
   },
   "scripts": {
     "client": "cd client && npm start",
@@ -17,13 +16,6 @@
     "dev": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
     "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
-  },
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "cors": "2.8.5",
-    "dotenv": "7.0.0",
-    "express": "^4.16.4",
-    "stripe": "6.28.0"
   },
   "devDependencies": {
     "concurrently": "^4.0.1"
