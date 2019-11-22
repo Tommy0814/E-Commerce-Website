@@ -224,7 +224,7 @@ Local Configuration:
     * Gzipping and Compression
 22. AWS (Amazon Website Service)
     * EC2
-    * AI Chatbot
+    * Lex AI Chatbot
     * Deployment
 23. Kommunicate
     * AWS Lex AI Chatbot Integration
