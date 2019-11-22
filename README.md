@@ -133,25 +133,35 @@ Local Configuration:
 For Windows or Mac:
 1. On command line, cd to the folder you wish to store the application, clone the project from this GitHub repository
 
-    `git clone https://github.com/Tommy0814/E-Commerce-Website.git`
+    `
+    git clone https://github.com/Tommy0814/E-Commerce-Website.git
+    `
     
 2. Open the project in a code editor, such as Microsoft Visual Studio Code, then stay at the root folder of the project hierachy, run the server by using the following code:
 
-    `npm install`
+    `
+    npm install
+    `
     
     then,
     
-    `npm start`
+    `
+    npm start
+    `
     
     Now the backend server is ready
     
 3. On the command line, go to client folder by typing
 
-    `cd client`
+    `
+    cd client
+    `
     
     at client folder, run the front end by typing
     
-    `npm install`
+    `
+    npm install
+    `
     
     then,
     
