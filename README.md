@@ -21,6 +21,9 @@ high performance e-commerce full-stack website!  You can install it in your
 computer within 5 minutes and can adapt, extend, overwrite
 and customize anything to your needs.
 
+### Video Demo
+https://youtu.be/M2xM0VQ9t8Q
+
 ### Technologies Used:
 1. React for Front End
 2. AWS for the server, Lex AI Chatbot and website deployment
