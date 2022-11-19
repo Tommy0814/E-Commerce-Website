@@ -20,7 +20,7 @@
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
-    "react-scripts": "3.0.0"
+    "react-scripts": "5.0.1"
   },
   "resolutions": {
     "babel-jest": "24.7.1"
